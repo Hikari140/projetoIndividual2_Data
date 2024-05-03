@@ -18,19 +18,3 @@ Realizar essa modelagem e responder algumas perguntas com nosso modelo:
 2. Quais são os principais campos e seus respectivos tipos?;
 3. Como essas entidades estão relacionadas?;
 4. Simule 2 registros para cada entidade.
-
-## Descrição do Modelo
-
-### Entidades:
-
-- Empresas Parceiras
-- Colaboradores
-- Tecnologias
-- Tecnologias para Empresas
-
-### Relacionamentos (Cardinalidades):
-
-- Empresas Parceiras (1:N) Colaboradores
-- Tecnologias (1:N) Tecnologias Para Empresas
-- Empresas Parceiras (1:N) Tecnologias Para Empresas
-- Tecnologias Para Empresas (N:1) Empresas Parceiras
