@@ -1,4 +1,4 @@
-# Projeto Indivual Módulo 2
+# Projeto Individual Módulo 2 - Data Analytics
 
 Foi realizado um Diagrama para demonstrar um modelo de Banco de Dados com um tema proposto e com perguntas referente ao modelo.
 
