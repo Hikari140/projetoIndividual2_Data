@@ -11,6 +11,7 @@ Cargo VARCHAR
 IDEmpresasParceiras INT (PK) 
 Nome CHAR
 Setor CHAR
+Contato INT
 IDColaboradores INT (FK)
 
 IDTecnologias INT (PK)  
@@ -28,3 +29,47 @@ Empresas Parceiras (1:N) Tecnologias Para Empresas
 Tecnologias Para Empresas (N:1) Empresas Parceiras
 
 4. Simule 2 registros para cada entidade.
+
+Colaboradores:
+
+ID: 1
+Nome: Gustavo
+Cargo: Analista de Dados
+
+ID: 2
+Nome: Anna
+Cargo: Desenvolvedora Front-end
+
+Empresas Parceiras:
+
+ID: 1
+Nome: Resilia
+Setor: Educação
+Contato: (xx) xxxxx-xxxx
+
+ID: 2
+Nome: Senac
+Setor: Educação
+Contato: (xx) xxxxx-xxxx
+
+Tecnologias:
+
+ID: 1
+Área: WebDev
+Tecnologia: Front-end, Back-end
+
+ID: 2
+Área: Dados
+Tecnnologia: Python, SQL
+
+Tecnologias para Empresas:
+
+ID: 1
+IDTecnologiasParaEmpresas: 1  
+IDEmpresasParceiras: 1
+IDTecnologias: 1
+
+ID: 2
+IDTecnologiasParaEmpresas: 2  
+IDEmpresasParceiras: 2
+IDTecnologias: 2
