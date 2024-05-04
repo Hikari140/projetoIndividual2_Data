@@ -5,12 +5,12 @@ Empresas Parceiras, Colaboradores, Tecnologias e Tecnologias para Empresas.
 2. Quais são os principais campos e seus respectivos tipos?
 
 IDColaboradores INT (PK)  
-Nome CHAR
+Nome VARCHAR
 Cargo VARCHAR
 
 IDEmpresasParceiras INT (PK) 
-Nome CHAR
-Setor CHAR
+Nome VARCHAR
+Setor VARCHAR
 Contato INT
 IDColaboradores INT (FK)
 
