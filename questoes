@@ -16,6 +16,7 @@ IDColaboradores INT (FK)
 
 IDTecnologias INT (PK)  
 Área (webdev, dados, marketing, etc.) VARCHAR
+Tecnologia VARCHAR
 
 IDTecnologiasParaEmpresas INT (PK)
 IDEmpresasParceiras INT (FK)
@@ -60,7 +61,7 @@ Tecnologia: Front-end, Back-end
 
 ID: 2
 Área: Dados
-Tecnnologia: Python, SQL
+Tecnologia: Python, SQL
 
 Tecnologias para Empresas:
 
